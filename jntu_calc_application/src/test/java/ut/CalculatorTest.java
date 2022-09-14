@@ -24,12 +24,13 @@ public class CalculatorTest {
 
 	@Test
 	public void testAdd() {
-		assertTrue(cl.doAdd(1, 2) == 3);
+		assertTrue(cl.doAdd(1, 2) == 5);
 	}	
 
 	@Test
 	public void testSub() {
 		assertTrue(cl.doSub(1, 1) == 0);
+		
 	}
 
 	@Test
